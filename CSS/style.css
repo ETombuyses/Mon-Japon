@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang:500');
+
+@font-face {
+  font-family: "Cinematografica";
+  src: url("../fonts/cinematografica/cinematografica-thin-trial-webfont.ttf")
+  format ("ttf");
+  font-weight: lighter;
+  font-style: normal;
+} 
+
+
+h1 {
+  color : #900C3F;;
+  font-size: 35px;
+  font-family: "Dosis";
+  margin: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  color : #900C3F;;
+  font-size: 30px;
+  font-family: "Dosis";
+  margin: 20px;
+  text-decoration: underline;
+}
+
+nav ul {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #F1CDC8;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  line-height: 50px;
+}
+
+nav li:hover {
+  background-color: #F0B9B1;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+  display: block;
+}
+
+nav li a:hover {
+  color: White;
+}
+
+.logo {
+  font-family: "Cinematografica";
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  color: #900C3F;
+  margin: 10px;
+}
+
+.block {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  padding: 30px;
+  background-color: #900C3F;
+  color: white;
+  text-align: center;
+  margin-left: 30px; 
+  margin-right: 30px;
+}
+
+.blocks {
+  text-align: center;
+}
