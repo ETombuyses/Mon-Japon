@@ -90,6 +90,7 @@ nav a:hover {
   margin: 15px;
   font-size: 18px;
   font-family: "Dosis";
+  border-radius: 50%;
 }
 
 .blocks {
@@ -125,11 +126,11 @@ footer p {
   width: 100%;
 }
 
-/* #home:before  {
+#home:before  {
 content: url("../temple-japonais.png");
 padding-right: 10px;
 margin-top: 5px;
-} */
+}
 
 #home-banner {
   background-image: url("../fuji-san-artwork.jpg");
@@ -144,4 +145,10 @@ margin-top: 5px;
   width: auto;
   background-size: cover;
   line-height: 350px;
+}
+
+.black-bar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
 }
