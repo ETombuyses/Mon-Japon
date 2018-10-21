@@ -1,6 +1,42 @@
-body {
+.site-background {
+  /* background-color: #29BFF2; */
+  background-image: url("../images/red-wave-motif.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo-background {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  background-color: white;
+}
+
+.main-background {
   margin-left: 10%;
   margin-right: 10%;
+  background-color: white;
+  box-shadow: -2px 0px 15px black;
+  box-shadow: 2px 0px 15px black;
+}
+.logo {
+  font-family: "Cinematografica";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 100px;
+  /* text-align: center; */
+  color: #9C0D38;
+  /* margin: 10px; */
+  position: absolute;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #FF3D40;
+  margin: 15px;
+  border-radius:50%;
 }
 
 h1 {
@@ -12,7 +48,7 @@ h1 {
 }
 
 h2 {
-  color : #900C3F;;
+  color : #9C0D38;
   font-size: 30px;
   font-family: "Dosis";
   margin: 20px;
@@ -22,9 +58,11 @@ h2 {
 
 nav {
   height: 50px;
-  width: 100%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
   text-align: center;
-  background-color: black;
+  background-color: #01161E;
+  box-shadow: 0px -2px 15px black;
 }
 
 nav li {
@@ -50,24 +88,6 @@ nav a:hover {
   color: White;
 }
 
-.logo {
-  font-family: "Cinematografica";
-  font-weight: 100;
-  font-style: normal;
-  font-size: 100px;
-  /* text-align: center; */
-  color: #900C3F;
-  /* margin: 10px; */
-  position: absolute;
-}
-
-.square {
-  background-color: red;
-  width: 100px;
-  height: 100px;
-  border-radius:50%;
-  margin: auto;
-}
 
 .block {
   height: 100px;
@@ -82,54 +102,40 @@ nav a:hover {
   border-radius: 50%;
 }
 
-.blocks {
+.block-parent {
   display: flex;
   justify-content: center;
 }
 
 
 footer {
-  height: 50px;
+  height: 150px;
   width: 100%;
   background-color: black;
+  color: white;
+  font-family: "Dosis";
 }
 
 footer p {
-  color: white;
-  font-family: "Dosis";
-  line-height: 50px;
+  /* line-height: 50px; */
   margin-left: 5%;
-}
-.parentparent {
-  justify-content: center;
-  display: flex;
-}
-
-.separator {
-  height: 15px;
-  width: 100%;
-}
-
-.separator {
-  height: 15px;
-  width: 100%;
 }
 
 #home:before  {
-content: url("../temple-japonais.png");
+content: url("../images/temple-japonais.png");
 padding-right: 10px;
 margin-top: 5px;
 }
 
 #home-banner {
-  background-image: url("../fuji-san-artwork.jpg");
+  background-image: url("../images/fuji-san-artwork.jpg");
   height: 350px;
   width: 100%; 
   line-height: 350px;
 }
 
 #land-banner {
-  background-image: url("../paysage-japonais.jpg");
+  background-image: url("../images/paysage-japonais.jpg");
   height: 350px;
   width: auto;
   background-size: cover;
@@ -140,4 +146,21 @@ margin-top: 5px;
   height: 50px;
   width: 100%;
   background-color: black;
+  box-shadow: 0px 2px 15px black;
+}
+
+#lang-banner {
+  background-image: url("../images/japanese-street.jpg");
+  height: 350px;
+  width: auto;
+  background-size: cover;
+  line-height: 350px;
+}
+
+#culture-banner {
+  background-image: url("../images/temple-street.jpg");
+  height: 350px;
+  width: auto;
+  background-size: cover;
+  line-height: 350px;
 }
