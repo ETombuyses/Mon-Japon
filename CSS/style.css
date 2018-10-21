@@ -164,3 +164,13 @@ margin-top: 5px;
   background-size: cover;
   line-height: 350px;
 }
+
+#lantern {
+/* position: relative; */
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+}
